@@ -47,6 +47,7 @@ struct ThemeManager {
         //ImageUtils.emojiToImage(emoji: "⏰", size: 24)
         static let bedIcon: UIImage = UIImage(systemName: "bed.double") ?? UIImage()
         //ImageUtils.emojiToImage(emoji: "🛌", size: 24)
-        //static let sunIcon: UIImage = ImageUtils.emojiToImage(emoji: "☀️", size: 24)
+        static let sparkles: UIImage = UIImage(systemName: "sparkles") ?? UIImage()
+        //ImageUtils.emojiToImage(emoji: "☀️", size: 24)
     }
 }

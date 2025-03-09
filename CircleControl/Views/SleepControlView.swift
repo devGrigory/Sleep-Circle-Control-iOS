@@ -74,7 +74,7 @@ final class SleepControlView: UIView {
         $0.axis = .vertical
         $0.alignment = .center
         $0.distribution = .fillEqually
-        $0.spacing = UIConstants.sleepControlViewSize * 0.3
+        $0.spacing = UIConstants.sleepControlViewSize * 0.35
         
         return $0
     }(UIStackView())
@@ -243,7 +243,7 @@ extension SleepControlView: SleepControlLayerConfigurable {
         scheduleIconsStackView.addArrangedSubview(scheduleWakeupImageView)
         
         let timeTableBedImageView = ImageViewBuilder()
-            .setImage(ThemeManager.Image.bedIcon)
+            .setImage(ThemeManager.Image.sparkles)
             .setTintColor(.vividSky)
             .setFrameSize(SleepControlLayout.Sizes.imageSize)
             .build()
