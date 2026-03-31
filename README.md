@@ -3,10 +3,8 @@
 ### Screenshot
 ![Circle Control](Screenshots/circle_control.png)
 
-### Simulator Video
-<p align="center">
-  <video width="400" controls>
-    <source src="Videos/circle_controlling.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
+### Simulator Animation
+![Circle Control Animation](Videos/circle_controlling.gif)
+
+### Download Full Simulator Video (MP4)
+You can download and watch the full simulator recording [here](Videos/circle_controlling.mp4).
